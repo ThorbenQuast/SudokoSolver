@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/base.h
+fstream
+-
+vector
+-
+
+.././include/parse.h
+
+.././include/solve.h
+string
+-
+
+/Users/thorbenquast/Desktop/SudokuSolver/main.cc
+iostream
+-
+base.h
+/Users/thorbenquast/Desktop/SudokuSolver/base.h
+solve.h
+/Users/thorbenquast/Desktop/SudokuSolver/solve.h
+parse.h
+/Users/thorbenquast/Desktop/SudokuSolver/parse.h
+SudokuSolverConfig.h
+/Users/thorbenquast/Desktop/SudokuSolver/SudokuSolverConfig.h
+
+config/SudokuSolverConfig.h
+

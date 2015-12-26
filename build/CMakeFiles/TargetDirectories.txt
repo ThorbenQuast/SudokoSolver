@@ -1,0 +1,2 @@
+/Users/thorbenquast/Desktop/SudokuSolver/build/CMakeFiles/main.dir
+/Users/thorbenquast/Desktop/SudokuSolver/build/CMakeFiles/SudokuSolver.dir
