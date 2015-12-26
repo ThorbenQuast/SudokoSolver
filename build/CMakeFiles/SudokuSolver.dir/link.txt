@@ -1,2 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libSudokuSolver.a  CMakeFiles/SudokuSolver.dir/src/base.cc.o CMakeFiles/SudokuSolver.dir/src/parse.cc.o CMakeFiles/SudokuSolver.dir/src/solve.cc.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libSudokuSolver.a
