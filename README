@@ -1,0 +1,15 @@
+Installation instructions (simple):
+
+1. cd into this directory
+2. mkdir build
+3. cd build
+4. cmake ../
+5. make
+
+To run exemplary puzzle:
+"./main ../examples/sudoku_e1.txt"
+
+
+Remark:
+This algorithm is not perfect. It makes use of good guesses at certain steps and proceeds recursively until a solution is found, the number of guesses exceeds three or there 
+are no more further possibilities for setting numbers.
