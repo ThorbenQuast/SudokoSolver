@@ -21,7 +21,7 @@ field::field(char* input, int dim){
   }
 }
 
-field::field(const field::field &other){
+field::field(const field &other){
   int dim = other.dim;
   this->dim = dim;
   this->element = new int* [dim];

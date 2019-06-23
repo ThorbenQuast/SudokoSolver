@@ -10,8 +10,8 @@ class field{
   public:
     field(char* input, int dim);       
     ~field();
-    field(const field::field &other);
-    const field &operator=(const field::field &other);
+    field(const field &other);
+    const field &operator=(const field &other);
 
     void show(int indentLevel);
     int get(int i, int j);
